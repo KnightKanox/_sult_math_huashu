@@ -1,0 +1,109 @@
+{
+  "seed": 42,
+  "trials": 50,
+  "workers": 1,
+  "V_AA": 2549254587.1838574,
+  "groups": [
+    {
+      "phi": 0.005,
+      "n_a": 354,
+      "boundary_mode": "periodic_connected",
+      "trials": 50,
+      "connected_count": 45,
+      "p_hat": 0.9,
+      "ci_low": 0.7863950966521162,
+      "ci_high": 0.9565248760084288,
+      "rho_per_nm3": 3.54e-10,
+      "k_bar": 0.9024361238630856
+    },
+    {
+      "phi": 0.005,
+      "n_a": 354,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 50,
+      "connected_count": 49,
+      "p_hat": 0.98,
+      "ci_low": 0.8950431352816304,
+      "ci_high": 0.9964608319110234,
+      "rho_per_nm3": 3.54e-10,
+      "k_bar": 0.9024361238630856
+    },
+    {
+      "phi": 0.006,
+      "n_a": 424,
+      "boundary_mode": "periodic_connected",
+      "trials": 50,
+      "connected_count": 47,
+      "p_hat": 0.94,
+      "ci_low": 0.8378265662912299,
+      "ci_high": 0.9793854036353695,
+      "rho_per_nm3": 4.24e-10,
+      "k_bar": 1.0808839449659555
+    },
+    {
+      "phi": 0.006,
+      "n_a": 424,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 50,
+      "connected_count": 47,
+      "p_hat": 0.94,
+      "ci_low": 0.8378265662912299,
+      "ci_high": 0.9793854036353695,
+      "rho_per_nm3": 4.24e-10,
+      "k_bar": 1.0808839449659555
+    },
+    {
+      "phi": 0.007,
+      "n_a": 495,
+      "boundary_mode": "periodic_connected",
+      "trials": 50,
+      "connected_count": 50,
+      "p_hat": 1.0,
+      "ci_low": 0.9286499658256813,
+      "ci_high": 1.0,
+      "rho_per_nm3": 4.95e-10,
+      "k_bar": 1.2618810206560096
+    },
+    {
+      "phi": 0.007,
+      "n_a": 495,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 50,
+      "connected_count": 50,
+      "p_hat": 1.0,
+      "ci_low": 0.9286499658256813,
+      "ci_high": 1.0,
+      "rho_per_nm3": 4.95e-10,
+      "k_bar": 1.2618810206560096
+    },
+    {
+      "phi": 0.01,
+      "n_a": 707,
+      "boundary_mode": "periodic_connected",
+      "trials": 50,
+      "connected_count": 50,
+      "p_hat": 1.0,
+      "ci_low": 0.9286499658256813,
+      "ci_high": 1.0,
+      "rho_per_nm3": 7.07e-10,
+      "k_bar": 1.8023229931389873
+    },
+    {
+      "phi": 0.01,
+      "n_a": 707,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 50,
+      "connected_count": 50,
+      "p_hat": 1.0,
+      "ci_low": 0.9286499658256813,
+      "ci_high": 1.0,
+      "rho_per_nm3": 7.07e-10,
+      "k_bar": 1.8023229931389873
+    }
+  ],
+  "summary": {
+    "mean_p_hat_periodic_connected": 0.96,
+    "mean_p_hat_wrapped_geometry_only": 0.98,
+    "mean_k_bar": 1.2618810206560096
+  }
+}

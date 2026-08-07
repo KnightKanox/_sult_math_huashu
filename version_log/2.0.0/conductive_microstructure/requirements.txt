@@ -1,0 +1,6 @@
+# 项目依赖（问题1阶段最小集 + 问题2可视化）
+numpy
+openpyxl
+pytest
+scipy
+matplotlib

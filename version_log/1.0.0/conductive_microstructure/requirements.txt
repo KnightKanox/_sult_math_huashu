@@ -1,0 +1,4 @@
+# 项目依赖（问题1阶段最小集）
+numpy
+openpyxl
+pytest

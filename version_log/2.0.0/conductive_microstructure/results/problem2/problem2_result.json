@@ -1,0 +1,110 @@
+{
+  "seed": 42,
+  "trials": 2000,
+  "workers": 8,
+  "mode": "all",
+  "V_AA": 2549254587.1838574,
+  "groups": [
+    {
+      "phi": 0.005,
+      "N_A": 354,
+      "boundary_mode": "periodic_connected",
+      "trials": 2000,
+      "connected_count": 1830,
+      "p_hat": 0.915,
+      "ci_low": 0.9019676970169574,
+      "ci_high": 0.9264410953746169,
+      "rho": 3.54e-10,
+      "mean_degree_theory": 0.9024361238630856
+    },
+    {
+      "phi": 0.005,
+      "N_A": 354,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 2000,
+      "connected_count": 1836,
+      "p_hat": 0.918,
+      "ci_low": 0.9051589141739098,
+      "ci_high": 0.9292383755120615,
+      "rho": 3.54e-10,
+      "mean_degree_theory": 0.9024361238630856
+    },
+    {
+      "phi": 0.006,
+      "N_A": 424,
+      "boundary_mode": "periodic_connected",
+      "trials": 2000,
+      "connected_count": 1901,
+      "p_hat": 0.9505,
+      "ci_low": 0.9400997869966969,
+      "ci_high": 0.959172890045241,
+      "rho": 4.24e-10,
+      "mean_degree_theory": 1.0808839449659555
+    },
+    {
+      "phi": 0.006,
+      "N_A": 424,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 2000,
+      "connected_count": 1915,
+      "p_hat": 0.9575,
+      "ci_low": 0.9477468849007025,
+      "ci_high": 0.9654989524948283,
+      "rho": 4.24e-10,
+      "mean_degree_theory": 1.0808839449659555
+    },
+    {
+      "phi": 0.007,
+      "N_A": 495,
+      "boundary_mode": "periodic_connected",
+      "trials": 2000,
+      "connected_count": 1950,
+      "p_hat": 0.975,
+      "ci_low": 0.967193066501666,
+      "ci_high": 0.9809856717778467,
+      "rho": 4.95e-10,
+      "mean_degree_theory": 1.2618810206560096
+    },
+    {
+      "phi": 0.007,
+      "N_A": 495,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 2000,
+      "connected_count": 1953,
+      "p_hat": 0.9765,
+      "ci_low": 0.9688911197165314,
+      "ci_high": 0.9822818672101798,
+      "rho": 4.95e-10,
+      "mean_degree_theory": 1.2618810206560096
+    },
+    {
+      "phi": 0.01,
+      "N_A": 707,
+      "boundary_mode": "periodic_connected",
+      "trials": 2000,
+      "connected_count": 1993,
+      "p_hat": 0.9965,
+      "ci_low": 0.9927927122682532,
+      "ci_high": 0.9983035899544378,
+      "rho": 7.07e-10,
+      "mean_degree_theory": 1.8023229931389873
+    },
+    {
+      "phi": 0.01,
+      "N_A": 707,
+      "boundary_mode": "wrapped_geometry_only",
+      "trials": 2000,
+      "connected_count": 1994,
+      "p_hat": 0.997,
+      "ci_low": 0.9934699962513177,
+      "ci_high": 0.9986243888537725,
+      "rho": 7.07e-10,
+      "mean_degree_theory": 1.8023229931389873
+    }
+  ],
+  "summary": {
+    "mean_p_hat_periodic_connected": 0.95925,
+    "mean_p_hat_wrapped_geometry_only": 0.96225,
+    "mean_mean_degree_theory": 1.2618810206560096
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "seed": 2,
+  "trials": 1000,
+  "workers": 8,
+  "mode": "periodic_connected",
+  "V_AA": 2549254587.1838574,
+  "groups": [
+    {
+      "phi": 0.005,
+      "N_A": 354,
+      "boundary_mode": "periodic_connected",
+      "trials": 1000,
+      "connected_count": 908,
+      "p_hat": 0.908,
+      "ci_low": 0.8884908764642334,
+      "ci_high": 0.9243863742892721,
+      "rho": 3.54e-10,
+      "mean_degree_theory": 0.9024361238630856
+    },
+    {
+      "phi": 0.007,
+      "N_A": 495,
+      "boundary_mode": "periodic_connected",
+      "trials": 1000,
+      "connected_count": 976,
+      "p_hat": 0.976,
+      "ci_low": 0.9645368449129426,
+      "ci_high": 0.9838199476328138,
+      "rho": 4.95e-10,
+      "mean_degree_theory": 1.2618810206560096
+    }
+  ],
+  "summary": {
+    "mean_p_hat_periodic_connected": 0.942,
+    "mean_mean_degree_theory": 1.0821585722595475
+  }
+}
