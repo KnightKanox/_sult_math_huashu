@@ -161,7 +161,7 @@ def plot_bisection(result, phi_theory, out_dir):
     ax.axhline(0.90, color="gray", linestyle="--", linewidth=1.0, label="判定线 90%")
     x_theory = phi_theory * 100.0
     ax.axvline(x_theory, color="purple", linestyle="--", linewidth=1.0,
-               label=f"理论 k̄=1（φ={x_theory:.3f}%）")
+               label=rf"理论 $\bar{{k}}$=1（φ={x_theory:.3f}%）")
     colors = {"periodic_connected": "#1f77b4", "wrapped_geometry_only": "#d62728"}
     for mode_key, mdata in result["modes"].items():
         color = colors.get(mode_key, "#333333")
