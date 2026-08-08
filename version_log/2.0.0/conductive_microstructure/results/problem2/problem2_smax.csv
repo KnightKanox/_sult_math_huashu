@@ -1,0 +1,9 @@
+phi,N_A,boundary_mode,trials,mean_max_component_ratio
+0.005000,354,periodic_connected,2000,0.905732
+0.005000,354,wrapped_geometry_only,2000,0.933252
+0.006000,424,periodic_connected,2000,0.936334
+0.006000,424,wrapped_geometry_only,2000,0.956680
+0.007000,495,periodic_connected,2000,0.955891
+0.007000,495,wrapped_geometry_only,2000,0.970296
+0.010000,707,periodic_connected,2000,0.982871
+0.010000,707,wrapped_geometry_only,2000,0.988756

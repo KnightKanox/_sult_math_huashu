@@ -86,6 +86,36 @@ def plot_kbar(csv_path, out_dir):
     return png
 
 
+# 绘制图 3：最大连通分量占比 S_max/N 随体积分数变化（两种边界模式各一条线）
+def plot_smax(csv_path, out_dir):
+    """读结果 CSV 画 S_max/N vs φ（双模式），保存 problem2_smax_ratio.png，返回路径。"""
+    os.makedirs(out_dir, exist_ok=True)
+    rows = read_problem2_csv(csv_path)
+    phis = sorted({float(r["phi"]) for r in rows})
+    x = np.array([p * 100.0 for p in phis])
+    modes = sorted({r["boundary_mode"] for r in rows})
+
+    fig, ax = plt.subplots(figsize=(7.5, 5.5))
+    for m in modes:
+        g = sorted([r for r in rows if r["boundary_mode"] == m],
+                   key=lambda r: float(r["phi"]))
+        y = np.array([float(r["mean_max_component_ratio"]) for r in g])
+        ax.plot(x, y, marker="o", label=m)
+    ax.set_xlabel("体积分数 φ (%)")
+    ax.set_ylabel(r"最大连通分量占比 $S_{\max}/N$")
+    ax.set_title(r"$S_{\max}/N$ 随体积分数变化")
+    ax.set_xticks(x)
+    ax.set_xticklabels([f"{v:.2f}%" for v in x])
+    ax.set_ylim(-0.03, 1.03)
+    ax.grid(True, alpha=0.3)
+    ax.legend()
+    fig.tight_layout()
+    png = os.path.join(out_dir, "problem2_smax_ratio.png")
+    fig.savefig(png, dpi=150)
+    plt.close(fig)
+    return png
+
+
 # 命令行入口：python -m src.visualization.probability_plot --csv ... --out-dir ...
 def main():
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -98,8 +128,10 @@ def main():
     args = parser.parse_args()
     png1 = plot_p_conn(args.csv, args.out_dir)
     png2 = plot_kbar(args.csv, args.out_dir)
+    png3 = plot_smax(args.csv, args.out_dir)
     print(f"图已保存: {png1}")
     print(f"图已保存: {png2}")
+    print(f"图已保存: {png3}")
 
 
 if __name__ == "__main__":

@@ -9,3 +9,8 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+# LaTeX 构建产物（根目录 main.tex 编译生成，可随时重建）
+/main.aux
+/main.log
+/main.out
