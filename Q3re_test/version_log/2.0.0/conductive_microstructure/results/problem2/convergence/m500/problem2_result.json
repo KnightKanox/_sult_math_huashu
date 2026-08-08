@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "trials": 500,
+  "workers": 8,
+  "mode": "periodic_connected",
+  "V_AA": 2549254587.1838574,
+  "groups": [
+    {
+      "phi": 0.005,
+      "N_A": 354,
+      "boundary_mode": "periodic_connected",
+      "trials": 500,
+      "connected_count": 466,
+      "p_hat": 0.932,
+      "ci_low": 0.9064785429161281,
+      "ci_high": 0.9509337866731715,
+      "rho": 3.54e-10,
+      "mean_degree_theory": 0.9024361238630856
+    }
+  ],
+  "summary": {
+    "mean_p_hat_periodic_connected": 0.932,
+    "mean_mean_degree_theory": 0.9024361238630856
+  }
+}

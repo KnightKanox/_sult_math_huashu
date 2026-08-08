@@ -1,0 +1,2 @@
+phi,N_A,boundary_mode,trials,connected_count,p_hat,ci_low,ci_high,rho,mean_degree_theory
+0.005000,354,periodic_connected,1000,913,0.913000,0.893913,0.928926,3.540000e-10,0.902436

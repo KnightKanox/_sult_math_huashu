@@ -13,6 +13,12 @@ def _point_segment_dist(p, a, b):
     return float(np.linalg.norm(p - (a + t * d)))
 
 
+# 公开接口：计算点 p 到有限线段 [a,b] 的最短距离
+def point_segment_distance(p, a, b):
+    """返回点 p 到线段 a→b 的最短欧氏距离。"""
+    return _point_segment_dist(np.asarray(p, float), np.asarray(a, float), np.asarray(b, float))
+
+
 def segment_segment_distance(p1, q1, p2, q2):
     """计算线段1(p1→q1)与线段2(p2→q2)的最短欧氏距离。
 

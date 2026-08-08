@@ -1,0 +1,4 @@
+C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\scripts\solve_problem3.py:181: UserWarning: Glyph 772 (\N{COMBINING MACRON}) missing from font(s) Microsoft YaHei.
+  fig.tight_layout()
+C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\scripts\solve_problem3.py:183: UserWarning: Glyph 772 (\N{COMBINING MACRON}) missing from font(s) Microsoft YaHei.
+  fig.savefig(png, dpi=150)

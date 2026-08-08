@@ -21,6 +21,20 @@ RIGHT_PLANE_X = BOX_HALF
 AA_SEG_THRESHOLD = 2.0 * A_RADIUS + CONNECT_DELTA
 # 介质A(胶囊近似)到电极导通时，轴到平面的距离阈值 = R_A + δ（nm）
 AE_AXIS_THRESHOLD = A_RADIUS + CONNECT_DELTA
+# A-B 导通判据：A轴线段到B球心距离阈值 = R_A+R_B+δ（nm）
+AB_SEG_THRESHOLD = 231.8
+# B-B 导通判据：两球心距阈值 = 2*R_B+δ（nm）
+BB_CENTER_THRESHOLD = 401.8
+# B-电极导通判据：球心到电极平面距离阈值 = R_B+δ（nm）
+BE_AXIS_THRESHOLD = 201.8
+# B 球生成范围半边长：球完全在盒内（5000-200）
+B_SPHERE_BOX_HALF = 4800.0
+# A 介质成本（元/μm³）
+COST_A_PER_UM3 = 1.05
+# B 介质成本（元/μm³）
+COST_B_PER_UM3 = 0.05
+# 体积单位换算 1μm³=1e9nm³
+NM3_PER_UM3 = 1e9
 # 周期重合端点判定容差（nm）
 PERIODIC_MATCH_TOL = 1e-6
 

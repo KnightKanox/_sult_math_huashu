@@ -1,0 +1,7 @@
+mode=periodic_connected: φ_min=0.5125% N_A=363 p_hat=0.9280 p_lower(95%)=0.9134 kbar=0.9254 φ_theory=0.5546% iterations=6
+mode=wrapped_geometry_only: φ_min=0.4969% N_A=351 p_hat=0.9210 p_lower(95%)=0.9058 kbar=0.8948 φ_theory=0.5546% iterations=6
+图已保存: C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\results\problem3\problem3_bisection.png
+
+CSV 已保存: C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\results\problem3\problem3_result.csv
+确认 CSV 已保存: C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\results\problem3\problem3_confirm.csv
+JSON 已保存: C:\Users\zdl\1111\_sult_math_huashu\version_log\2.0.0\conductive_microstructure\results\problem3\problem3_result.json

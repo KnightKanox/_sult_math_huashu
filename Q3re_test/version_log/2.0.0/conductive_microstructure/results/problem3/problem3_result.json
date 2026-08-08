@@ -1,0 +1,223 @@
+{
+  "seed": 42,
+  "config": {
+    "phi_low": 0.002,
+    "phi_high": 0.007,
+    "tol": 0.0001,
+    "trials": 1000,
+    "confirm_trials": 4000,
+    "seed": 42,
+    "mode": "all",
+    "workers": 8,
+    "out_dir": null,
+    "plot": true
+  },
+  "V_AA": 2549254587.1838574,
+  "phi_theory": 0.005545608120988532,
+  "modes": {
+    "periodic_connected": {
+      "phi_min": 0.005125,
+      "N_A": 363,
+      "p_hat": 0.928,
+      "p_lower_95": 0.9133685241825197,
+      "kbar": 0.9253794151477402,
+      "phi_low_end": 0.005046875000000001,
+      "phi_high_end": 0.005125,
+      "iterations": 6,
+      "history": [
+        {
+          "iter": 1,
+          "phi": 0.0045000000000000005,
+          "n_a": 318,
+          "connected": 889,
+          "trials": 1000,
+          "p_hat": 0.889,
+          "p_lower": 0.8715991864906406,
+          "action": "low",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.007
+        },
+        {
+          "iter": 2,
+          "phi": 0.00575,
+          "n_a": 407,
+          "connected": 944,
+          "trials": 1000,
+          "p_hat": 0.944,
+          "p_lower": 0.930798847804349,
+          "action": "high",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.00575
+        },
+        {
+          "iter": 3,
+          "phi": 0.005125,
+          "n_a": 363,
+          "connected": 928,
+          "trials": 1000,
+          "p_hat": 0.928,
+          "p_lower": 0.9133685241825197,
+          "action": "high",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.005125
+        },
+        {
+          "iter": 4,
+          "phi": 0.004812500000000001,
+          "n_a": 340,
+          "connected": 914,
+          "trials": 1000,
+          "p_hat": 0.914,
+          "p_lower": 0.8982767449420095,
+          "action": "low",
+          "phi_low": 0.004812500000000001,
+          "phi_high": 0.005125
+        },
+        {
+          "iter": 5,
+          "phi": 0.004968750000000001,
+          "n_a": 351,
+          "connected": 915,
+          "trials": 1000,
+          "p_hat": 0.915,
+          "p_lower": 0.8993506125794695,
+          "action": "low",
+          "phi_low": 0.004968750000000001,
+          "phi_high": 0.005125
+        },
+        {
+          "iter": 6,
+          "phi": 0.005046875000000001,
+          "n_a": 357,
+          "connected": 907,
+          "trials": 1000,
+          "p_hat": 0.907,
+          "p_lower": 0.890775496023948,
+          "action": "low",
+          "phi_low": 0.005046875000000001,
+          "phi_high": 0.005125
+        }
+      ],
+      "confirm": [
+        {
+          "phi": 0.005046875000000001,
+          "boundary_mode": "periodic_connected",
+          "trials": 4000,
+          "connected_count": 3671,
+          "p_hat": 0.91775,
+          "p_lower_95": 0.910319052885138
+        },
+        {
+          "phi": 0.005125,
+          "boundary_mode": "periodic_connected",
+          "trials": 4000,
+          "connected_count": 3662,
+          "p_hat": 0.9155,
+          "p_lower_95": 0.9079825399205671
+        }
+      ]
+    },
+    "wrapped_geometry_only": {
+      "phi_min": 0.004968750000000001,
+      "N_A": 351,
+      "p_hat": 0.921,
+      "p_lower_95": 0.9058065901146984,
+      "kbar": 0.894788360101534,
+      "phi_low_end": 0.004890625000000001,
+      "phi_high_end": 0.004968750000000001,
+      "iterations": 6,
+      "history": [
+        {
+          "iter": 1,
+          "phi": 0.0045000000000000005,
+          "n_a": 318,
+          "connected": 894,
+          "trials": 1000,
+          "p_hat": 0.894,
+          "p_lower": 0.8769110842074711,
+          "action": "low",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.007
+        },
+        {
+          "iter": 2,
+          "phi": 0.00575,
+          "n_a": 407,
+          "connected": 937,
+          "trials": 1000,
+          "p_hat": 0.937,
+          "p_lower": 0.9231452868632043,
+          "action": "high",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.00575
+        },
+        {
+          "iter": 3,
+          "phi": 0.005125,
+          "n_a": 363,
+          "connected": 922,
+          "trials": 1000,
+          "p_hat": 0.922,
+          "p_lower": 0.9068848108697072,
+          "action": "high",
+          "phi_low": 0.0045000000000000005,
+          "phi_high": 0.005125
+        },
+        {
+          "iter": 4,
+          "phi": 0.004812500000000001,
+          "n_a": 340,
+          "connected": 911,
+          "trials": 1000,
+          "p_hat": 0.911,
+          "p_lower": 0.8950586015996173,
+          "action": "low",
+          "phi_low": 0.004812500000000001,
+          "phi_high": 0.005125
+        },
+        {
+          "iter": 5,
+          "phi": 0.004968750000000001,
+          "n_a": 351,
+          "connected": 921,
+          "trials": 1000,
+          "p_hat": 0.921,
+          "p_lower": 0.9058065901146984,
+          "action": "high",
+          "phi_low": 0.004812500000000001,
+          "phi_high": 0.004968750000000001
+        },
+        {
+          "iter": 6,
+          "phi": 0.004890625000000001,
+          "n_a": 346,
+          "connected": 907,
+          "trials": 1000,
+          "p_hat": 0.907,
+          "p_lower": 0.890775496023948,
+          "action": "low",
+          "phi_low": 0.004890625000000001,
+          "phi_high": 0.004968750000000001
+        }
+      ],
+      "confirm": [
+        {
+          "phi": 0.004890625000000001,
+          "boundary_mode": "wrapped_geometry_only",
+          "trials": 4000,
+          "connected_count": 3623,
+          "p_hat": 0.90575,
+          "p_lower_95": 0.897874611864297
+        },
+        {
+          "phi": 0.004968750000000001,
+          "boundary_mode": "wrapped_geometry_only",
+          "trials": 4000,
+          "connected_count": 3630,
+          "p_hat": 0.9075,
+          "p_lower_95": 0.8996869297682806
+        }
+      ]
+    }
+  }
+}

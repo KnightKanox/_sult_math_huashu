@@ -1,0 +1,5 @@
+phi,boundary_mode,trials,connected_count,p_hat,p_lower_95
+0.005047,periodic_connected,4000,3671,0.917750,0.910319
+0.005125,periodic_connected,4000,3662,0.915500,0.907983
+0.004891,wrapped_geometry_only,4000,3623,0.905750,0.897875
+0.004969,wrapped_geometry_only,4000,3630,0.907500,0.899687

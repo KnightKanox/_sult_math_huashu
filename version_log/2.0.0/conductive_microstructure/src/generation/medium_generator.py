@@ -6,7 +6,7 @@ import numpy as np
 
 from .random_orientation import random_unit_vector
 from .random_position import random_position_in_box
-from ..config import BOX_HALF, A_LENGTH
+from ..config import BOX_HALF, A_LENGTH, B_SPHERE_BOX_HALF
 
 # 介质A圆柱半长（nm）
 A_HALF = A_LENGTH / 2.0
@@ -81,3 +81,13 @@ def generate_batch(rng, n):
     if not rows:
         return np.empty((0, 6))
     return np.concatenate(rows, axis=0)
+
+
+# 批量生成 n_b 个介质B球的球心（各分量在 [-B_SPHERE_BOX_HALF, B_SPHERE_BOX_HALF] 均匀采样）
+def generate_b_spheres(rng, n_b):
+    """生成 n_b 个 B 球球心，返回形状 (n_b,3) 的 numpy 数组。
+
+    B 球半径为 200nm，球心限制在 [-4800,4800]^3 内使球完全落在
+    盒体 [-5000,5000]^3 中，无需切段/回绕处理；n_b=0 时返回 (0,3) 空数组。
+    """
+    return rng.uniform(-B_SPHERE_BOX_HALF, B_SPHERE_BOX_HALF, size=(n_b, 3))
